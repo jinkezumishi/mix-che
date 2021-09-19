@@ -8,24 +8,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.7;
   color: #432;
+  background-color: rgba(250, 252, 194, 0.1);
+  margin: 0;
 }
 a {
   text-decoration: none;
 }
+
 img {
   max-width: 100%;
 }
 
 /* ヘッダー */
-.big-bg {
-  background-size: cover;
-  background-position: center top ;
-}
 
-#home {
-  background-image: url(img/background.png);
-  min-height: 100vh;
-}
 
 #home .page-title {
   text-transform: none;
@@ -39,6 +34,12 @@ img {
 .page-header {
   display: flex;
   justify-content: space-between;
+}
+
+.pink-bg {
+  background-color:rgba(249, 192, 192, 0.2);
+  padding-bottom: 40px;
+  padding-top: 8px;
 }
 
 .wrapper {
@@ -68,7 +69,6 @@ img {
 
 .home-content {
   text-align:center;
-  margin-top: 10px;
 }
 
 .home-content p {
